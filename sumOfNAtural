@@ -1,0 +1,13 @@
+#include<stdio.h>
+int sumOfNatural(int n);
+void main(){
+    printf("%d",sumOfNatural(5));
+
+}
+int sumOfNatural(int n){
+    int sum=0;
+    for (int i = 1 ; i<=n ; i++){
+        sum += i;
+    }
+    return sum;
+}
